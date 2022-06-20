@@ -24,26 +24,17 @@
 		<img class="alien" src="./assets/img/alien.svg" />
 		<div class="container">
 			<div class="login">
-				<h1>Hola, Accede a tu cuenta de admin</h1>
 				<form action="" class="form">
 					<input
 						class="form__input input-email"
 						type="email"
 						pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+						required
 						placeholder="Correo electrónico..."
-						required
 					/>
-					<input
-						minlength="3"
-						maxlength="8"
-						required
-						class="form__input"
-						type="text"
-						placeholder="Contraseña..."
-					/>
-					<button class="form__btn">Ingresar</button>
+					<button class="form__btn">Email me</button>
 					<p class="login-p">
-						Recupera tu contraseña <a href="recovery.html">aquí</a>
+						<a class="login-p" href="index.html">Back to Login</a>
 					</p>
 				</form>
 			</div>
