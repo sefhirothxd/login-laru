@@ -28,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .alien {
@@ -51,13 +52,19 @@ body {
   width: 90px;
 }
 
-.logo .logo-letras {
+.logo .logo-letter {
   width: 200px;
 }
 
 @media screen and (max-width: 950px) {
   .alien {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .alien {
+    display: none;
   }
 }
 
